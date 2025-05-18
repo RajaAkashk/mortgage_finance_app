@@ -121,7 +121,9 @@ function Homepage() {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center p-4 hover:bg-green-600  hover:text-white font-semibold"
+                className={`w-full flex justify-between items-center p-4 hover:bg-green-600  active:bg-green-600 active:text-white hover:text-white font-semibold 
+                  ${openIndex === index ? "bg-green-600 text-white" : ""}
+                  `}
               >
                 {faq.question}
                 <span>{openIndex === index ? "−" : "+"}</span>
