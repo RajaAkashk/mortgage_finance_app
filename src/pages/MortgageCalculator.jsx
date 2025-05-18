@@ -159,7 +159,7 @@ function MortgageCalculator() {
         </div>
       </div>
 
-      <div className="mb-[4rem]">
+      <div className="mb-[4rem] mt-[3rem] sm:mt-0">
         <h2 className="text-3xl font-semibold mb-2">
           How does mortgage calculator help me?
         </h2>
